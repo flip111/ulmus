@@ -5,7 +5,7 @@ return [
   'plugins' => [
     new \Phergie\Irc\Plugin\React\Pong\Plugin,
     new \Phergie\Irc\Plugin\React\AutoJoin\Plugin([
-      'channels' => '#elm-bot'
+      'channels' => '#elm'
     ]),
 
     new \Phergie\Irc\Plugin\React\NickServ\Plugin([
@@ -33,7 +33,7 @@ return [
       ],
       'targets' => [
         'ulmus!ulmus@wilhelm.freenode.net' => [
-          '#elm-bot'
+          '#elm'
         ]
       ],
       'interval' => 300,
