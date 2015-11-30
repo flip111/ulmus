@@ -1,3 +1,4 @@
+#!/bin/sh
 useradd ulmus
 cp ulmus /etc/init.d/ulmus
 chmod +x /etc/init.d/ulmus
