@@ -5,7 +5,8 @@
         "phergie/phergie-irc-plugin-react-autojoin": "^1.1",
         "phergie/phergie-irc-plugin-react-feedticker": "^1.0",
         "phergie/phergie-irc-plugin-react-nickserv": "^1.3",
-        "phergie/phergie-irc-plugin-react-pong": "^1.1"
+        "phergie/phergie-irc-plugin-react-pong": "^1.1",
+        "pschwisow/phergie-irc-plugin-react-altnick": "^1.0"
     },
     "config": {
         "bin-dir": "bin"
