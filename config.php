@@ -8,6 +8,21 @@ return [
       'channels' => '#elm-bot'
     ]),
 
+    new \Phergie\Irc\Plugin\React\NickServ\Plugin([
+      'password' => file_get_contents('nickserv-password'),
+      'botnick' => 'NickServ',
+      'ghost' => true,
+      'identifypattern' => '/This nickname is registered/',
+      'loggedinpattern' => '/You are now identified/',
+      'ghostpattern' => '/has been ghosted/',
+    ]),
+    new \PSchwisow\Phergie\Plugin\AltNick\Plugin([
+      'nicks' => [
+        'ulmus_',
+        'ulmus^'
+      ]
+    ]),
+
     // Dependencies of FeedTicker
     new \WyriHaximus\Phergie\Plugin\Dns\Plugin,
     new \WyriHaximus\Phergie\Plugin\Http\Plugin,
